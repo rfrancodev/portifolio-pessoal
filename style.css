@@ -89,12 +89,14 @@ header nav ul li {
 /* Estilo do topo do site */
 
 section.topo-do-site {
-  padding: 40px 4%;
+  padding: 40px 5%;
 }
 
 section.topo-do-site .flex {
   align-items: center;
   justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
   gap: 100px;
 }
 
@@ -105,8 +107,10 @@ section.topo-do-site .flex {
 }
 
 .topo-do-site .txt-topo-site h1 span {
+  margin-top: 10px;
   color: #2277df;
   font-size: 56px;
+  display: block;
 }
 
 .topo-do-site .txt-topo-site p {
@@ -115,8 +119,9 @@ section.topo-do-site .flex {
 }
 
 .img-topo-site img {
-  width: 360px;
+  width: 420px;
   height: auto;
+  border-radius: 30px;
 }
 
 .topo-do-site .img-topo-site img {
@@ -145,7 +150,7 @@ section.especialidades {
 }
 
 section.especialidades .flex {
-  gap: 60px;
+  gap: 100px;
 }
 
 .especialidades .especialidades-box {
