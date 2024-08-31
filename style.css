@@ -116,6 +116,7 @@ section.topo-do-site .flex {
 .topo-do-site .txt-topo-site p {
   color: #fff;
   margin: 40px 0;
+  line-height: 28px;
 }
 
 .img-topo-site img {
@@ -140,11 +141,6 @@ section.topo-do-site .flex {
 
 /* Estilo das especialidades */
 
-.imagem-api img {
-  width: 120px;
-  height: auto;
-}
-
 section.especialidades {
   padding: 40px 4%;
 }
@@ -159,11 +155,13 @@ section.especialidades .flex {
 }
 
 .especialidades .especialidades-box {
+  width: 420px;
   color: #fff;
   padding: 40px;
   margin-top: 45px;
   border-radius: 24px;
   transition: 0.2s;
+  justify-content: space-between;
 }
 
 .especialidades .especialidades-box:hover {
@@ -184,7 +182,7 @@ section.especialidades .flex {
 }
 
 section.sobre {
-  padding: 80px 4%;
+  padding: 20px 4%;
 }
 
 section.sobre .flex {
