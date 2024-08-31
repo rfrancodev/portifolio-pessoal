@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obrigado!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .logo {
+            width: 150px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            font-size: 18px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <img src="imagens/logo.png" alt="Logo" class="logo">
+    <h1>Obrigado!</h1>
+    <p>Obrigado por sua mensagem. Em breve entraremos em contato com você.</p>
+    <p>Você será redirecionado automaticamente para a página principal em alguns segundos.</p>
+
+    <script>
+        setTimeout(function() {
+            window.location.href = "index.html"; // Redireciona para a página principal
+        }, 5000); // Tempo de espera em milissegundos (5000 ms = 5 segundos)
+    </script>
+</body>
+</html>
