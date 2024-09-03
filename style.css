@@ -491,6 +491,10 @@ footer .line-footer a {
   }
   /*Rodapé  */
 
+  .btn-social button{
+    color: #000;
+  }
+
   footer .flex{
     flex-direction: column;
   }
