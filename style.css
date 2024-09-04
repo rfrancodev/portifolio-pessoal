@@ -5,11 +5,16 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-
 body {
-  background-color: #000;
-  height: 100vh;
+  background-color: #000; /* Mantém o fundo preto para qualquer área onde a imagem não cobre */
+  background-image: url('imagens/background.png'); /* Define a imagem de fundo */
+  background-size: cover; /* Ajusta a imagem para cobrir toda a área do body */
+  background-position: center; /* Centraliza a imagem no body */
+  background-repeat: no-repeat; /* Evita que a imagem se repita */
+  height: 360px;
+  
 }
+
 
 .interface {
   max-width: 1280px;
@@ -245,12 +250,13 @@ section.especialidades .flex {
 /* Estilo Sobre */
 
 .img-sobre img {
-  width: 420px;
+  width: 320px;
   height: auto;
+  border-radius: 30px;
 }
 
 section.sobre {
-  padding: 20px 4%;
+  padding: 20px 10%;
 }
 
 section.sobre .flex {
@@ -279,7 +285,6 @@ section.sobre .flex .btn-contato {
 
 .sobre .txt-sobre p {
   margin: 20px 0;
-  text-align: justify;
 }
 
 /* Estilo Portifólio */
@@ -485,7 +490,6 @@ footer .line-footer a {
 
   section.topo-do-site {
     padding: 20px 8%;
-    text-align: center;
   }
 
   .topo-do-site h1 {
@@ -515,6 +519,7 @@ footer .line-footer a {
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-bottom: 40px;
   }
 
   .btn-contato button {
