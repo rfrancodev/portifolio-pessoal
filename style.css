@@ -448,6 +448,10 @@ footer .line-footer a {
 @media screen and (max-width: 1020px){
   /* classes gerais */
 
+  body {
+  background-position: right;
+  }
+
     .flex{
       flex-direction: column;
       gap: 10px;
