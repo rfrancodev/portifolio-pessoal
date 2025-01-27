@@ -6,8 +6,8 @@
   font-family: "Poppins", sans-serif;
 }
 body {
-  background-color: #000;
-  background-image: url('imagens/background.png');
+  background-color: #fff;
+  background-image: url('imagens/Background.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -54,6 +54,11 @@ form .btn-enviar input:hover {
 }
 
 /* Estilo cabeçalho */
+
+.img-topo-site img {
+  width: 300px;
+  height: 200px;
+}
 
 .logo img {
   width: 72px;
@@ -188,6 +193,7 @@ section.topo-do-site .flex {
 
 .topo-do-site .txt-topo-site p {
   color: #fff;
+  font-size: 20px;
   margin: 40px 0;
 }
 
@@ -402,6 +408,19 @@ form .btn-enviar input {
   margin: 0 4px;
   transition: .2s;
 }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+  white-space: nowrap;
+}
+
 
 footer {
   padding: 40px;
